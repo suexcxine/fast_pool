@@ -1,0 +1,15 @@
+{application, fast_pool,
+ [{description, "An Erlang pool implementation not with actor but ets."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {fast_pool_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
